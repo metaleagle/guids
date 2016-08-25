@@ -6,7 +6,11 @@
 //  Copyright (c) 2012 Charlie Fulton. All rights reserved.
 //
 
-#import "GuildBrowserTests.h"
+#import <XCTest/XCTest.h>
+
+@interface GuildBrowserTests : XCTestCase
+
+@end
 
 @implementation GuildBrowserTests
 
