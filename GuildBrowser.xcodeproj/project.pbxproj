@@ -784,6 +784,7 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
@@ -839,6 +840,7 @@
 				778A26CF1D6F045300DBC7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
