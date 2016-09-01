@@ -15,6 +15,16 @@
 		778A26DA1D704B9000DBC7CF /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 778A26D81D704B9000DBC7CF /* character.json */; };
 		778A26DB1D704B9000DBC7CF /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 778A26D91D704B9000DBC7CF /* guild.json */; };
 		778A26DD1D704D2600DBC7CF /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778A26DC1D704D2600DBC7CF /* CharacterTests.m */; };
+		77F98ECB1D75AA360004BC77 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F98ECC1D75AA360004BC77 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F98ECD1D75AA360004BC77 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC915E9A8DA00B3713E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F98ECE1D75AA360004BC77 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCB15E9A8DA00B3713E /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F98ECF1D75AA360004BC77 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD215E9A8DA00B3713E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F98ED01D75AA360004BC77 /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2715E9B34900B3713E /* WoWApiClient.m */; };
+		77F98ED51D75AC8F0004BC77 /* gistfile1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77F98ED21D75AC8F0004BC77 /* gistfile1.txt */; };
+		77F98ED61D75AC8F0004BC77 /* TestSemaphor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F98ED41D75AC8F0004BC77 /* TestSemaphor.m */; };
+		77F98ED81D75ACE40004BC77 /* GuidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F98ED71D75ACE40004BC77 /* GuidTests.m */; };
+		77F98EE61D75AEA80004BC77 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F98EDA1D75AEA80004BC77 /* libOCMock.a */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -93,6 +103,21 @@
 		778A26D81D704B9000DBC7CF /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		778A26D91D704B9000DBC7CF /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		778A26DC1D704D2600DBC7CF /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		77F98ED21D75AC8F0004BC77 /* gistfile1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gistfile1.txt; sourceTree = "<group>"; };
+		77F98ED31D75AC8F0004BC77 /* TestSemaphor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSemaphor.h; sourceTree = "<group>"; };
+		77F98ED41D75AC8F0004BC77 /* TestSemaphor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSemaphor.m; sourceTree = "<group>"; };
+		77F98ED71D75ACE40004BC77 /* GuidTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidTests.m; sourceTree = "<group>"; };
+		77F98EDA1D75AEA80004BC77 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		77F98EDC1D75AEA80004BC77 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		77F98EDD1D75AEA80004BC77 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		77F98EDE1D75AEA80004BC77 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		77F98EDF1D75AEA80004BC77 /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		77F98EE01D75AEA80004BC77 /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		77F98EE11D75AEA80004BC77 /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		77F98EE21D75AEA80004BC77 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		77F98EE31D75AEA80004BC77 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		77F98EE41D75AEA80004BC77 /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		77F98EE51D75AEA80004BC77 /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -178,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F98EE61D75AEA80004BC77 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,10 +232,12 @@
 		778A26C81D6F045100DBC7CF /* GuildBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
+				77F98ED11D75AC8F0004BC77 /* TestSemaphor */,
 				778A26D71D704B9000DBC7CF /* testdata */,
 				778A26CB1D6F045300DBC7CF /* Info.plist */,
 				778A26D11D6F33A200DBC7CF /* WowUtilsTests.m */,
 				778A26DC1D704D2600DBC7CF /* CharacterTests.m */,
+				77F98ED71D75ACE40004BC77 /* GuidTests.m */,
 			);
 			path = GuildBrowserLogicTests;
 			sourceTree = "<group>";
@@ -223,9 +251,46 @@
 			path = testdata;
 			sourceTree = SOURCE_ROOT;
 		};
+		77F98ED11D75AC8F0004BC77 /* TestSemaphor */ = {
+			isa = PBXGroup;
+			children = (
+				77F98ED21D75AC8F0004BC77 /* gistfile1.txt */,
+				77F98ED31D75AC8F0004BC77 /* TestSemaphor.h */,
+				77F98ED41D75AC8F0004BC77 /* TestSemaphor.m */,
+			);
+			path = TestSemaphor;
+			sourceTree = "<group>";
+		};
+		77F98ED91D75AEA80004BC77 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				77F98EDA1D75AEA80004BC77 /* libOCMock.a */,
+				77F98EDB1D75AEA80004BC77 /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		77F98EDB1D75AEA80004BC77 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				77F98EDC1D75AEA80004BC77 /* NSNotificationCenter+OCMAdditions.h */,
+				77F98EDD1D75AEA80004BC77 /* OCMArg.h */,
+				77F98EDE1D75AEA80004BC77 /* OCMConstraint.h */,
+				77F98EDF1D75AEA80004BC77 /* OCMFunctions.h */,
+				77F98EE01D75AEA80004BC77 /* OCMLocation.h */,
+				77F98EE11D75AEA80004BC77 /* OCMMacroState.h */,
+				77F98EE21D75AEA80004BC77 /* OCMock.h */,
+				77F98EE31D75AEA80004BC77 /* OCMockObject.h */,
+				77F98EE41D75AEA80004BC77 /* OCMRecorder.h */,
+				77F98EE51D75AEA80004BC77 /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				77F98ED91D75AEA80004BC77 /* OCMock */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -501,6 +566,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F98ED51D75AC8F0004BC77 /* gistfile1.txt in Resources */,
 				778A26DA1D704B9000DBC7CF /* character.json in Resources */,
 				778A26DB1D704B9000DBC7CF /* guild.json in Resources */,
 			);
@@ -566,6 +632,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F98ED81D75ACE40004BC77 /* GuidTests.m in Sources */,
+				77F98ECB1D75AA360004BC77 /* AFHTTPClient.m in Sources */,
+				77F98ECC1D75AA360004BC77 /* AFHTTPRequestOperation.m in Sources */,
+				77F98ED61D75AC8F0004BC77 /* TestSemaphor.m in Sources */,
+				77F98ECD1D75AA360004BC77 /* AFJSONRequestOperation.m in Sources */,
+				77F98ECE1D75AA360004BC77 /* AFJSONUtilities.m in Sources */,
+				77F98ECF1D75AA360004BC77 /* AFURLConnectionOperation.m in Sources */,
+				77F98ED01D75AA360004BC77 /* WoWApiClient.m in Sources */,
 				778A26D31D6F35DA00DBC7CF /* Character.m in Sources */,
 				778A26D41D6F35DA00DBC7CF /* Guild.m in Sources */,
 				778A26D51D6F35DA00DBC7CF /* Item.m in Sources */,
@@ -677,10 +751,23 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/OCMock/OCMock\"",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				INFOPLIST_FILE = GuildBrowserLogicTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.GuildBrowserLogicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -709,10 +796,23 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/OCMock/OCMock\"",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				INFOPLIST_FILE = GuildBrowserLogicTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.GuildBrowserLogicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -775,6 +875,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.charliefulton.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -788,6 +892,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.charliefulton.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -806,6 +914,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowserTests/GuildBrowserTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.charliefulton.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -824,6 +936,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowserTests/GuildBrowserTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCMock",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.charliefulton.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
